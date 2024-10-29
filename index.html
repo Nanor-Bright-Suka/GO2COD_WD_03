@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+        <div class="screen">
+         <input type="text" id="inputBox"  autofocus = "required"> 
+        </div>
+        <div class="keys">
+            <button onclick="appendToInputBox('+')" class="operator">+</button>
+            <button onclick="appendToInputBox('1')">1</button>
+            <button onclick="appendToInputBox('2')">2</button>
+            <button onclick="appendToInputBox('3')">3</button>
+            <button onclick="appendToInputBox('-')" class="operator">-</button>
+            <button onclick="appendToInputBox('4')" >4</button>
+            <button onclick="appendToInputBox('5')">5</button>
+            <button onclick="appendToInputBox('6')">6</button>
+            <button onclick="appendToInputBox('*')" class="operator">*</button>
+            <button onclick="appendToInputBox('7')" >7</button>
+            <button onclick="appendToInputBox('8')">8</button>
+            <button onclick="appendToInputBox('9')" >9</button>
+            <button onclick="appendToInputBox('/')" class="operator">/</button>
+            <button onclick="appendToInputBox('0')" >0</button>
+            <button onclick="appendToInputBox('.')" class="operator">.</button>
+            <button onclick="appendToInputBox('%')" class="operator">%</button>
+            <button onclick= "results()">=</button>
+            <button onclick="clr()">clear</button>
+            <button onclick="dell()">del</button>
+
+        </div>
+    </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
